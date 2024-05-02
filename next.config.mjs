@@ -12,7 +12,7 @@ const nextConfig = {
 				hostname: "images.unsplash.com",
 			},
 			{
-				hostname: "avatars.githubusercontent.com",
+				hostname: "astradigitaldigiroomuat.blob.core.windows.net",
 			},
 		],
 	},
