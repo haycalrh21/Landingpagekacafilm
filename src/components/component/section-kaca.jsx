@@ -58,8 +58,11 @@ export function SectionKaca() {
 						</Button>
 					</SheetTrigger>
 					<SheetContent className='bg-gray-950 text-gray-50 p-6' side='right'>
-						<div className='grid gap-6'>
-							<Link className='text-lg font-medium hover:underline' href='#'>
+						<div className='grid gap-4'>
+							<Link
+								className='text-lg font-medium hover:underline gap-4'
+								href='#'
+							>
 								Beranda
 							</Link>
 							<Link
@@ -126,19 +129,19 @@ export function SectionKaca() {
 			<main>
 				<AnimatedSection>
 					<section className='bg-gray-950 text-gray-50 py-12 md:py-24 lg:py-32'>
-						<div className='container px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]'>
 								<div className='flex flex-col justify-center space-y-4'>
 									<div className='space-y-2'>
 										<h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none'>
 											Lindungi Rumahmu dengan Kaca Film Berkualitas
 										</h1>
-										<p className='max-w-[600px] text-gray-300 md:text-xl'>
+										<p className='max-w-[900px] text-gray-300 md:text-xl text-center'>
 											Dapatkan kaca film terbaik untuk melindungi rumahmu dari
 											sinar UV dan meningkatkan efisiensi energi.
 										</p>
 									</div>
-									<div className='flex flex-col gap-2 min-[400px]:flex-row'>
+									<div className='flex flex-col items-center justify-center gap-2 min-[400px]:flex-row'>
 										<Link
 											className='inline-flex h-10 items-center justify-center rounded-md bg-blue-500 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-blue-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50'
 											href='#product'
@@ -178,7 +181,7 @@ export function SectionKaca() {
 						className='bg-gray-100 dark:bg-gray-800 py-12 md:py-24 lg:py-32'
 						id='pilihan'
 					>
-						<div className='container px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6'>
 							<div className='grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]'>
 								<div className='flex flex-col justify-center space-y-4'>
 									<div className='space-y-2'>
@@ -250,14 +253,14 @@ export function SectionKaca() {
 				</AnimatedSection>
 				<AnimatedSection>
 					<section
-						className='bg-gray-950 text-gray-50 py-12 md:py-24 lg:py-32'
+						className='bg-gray-950 text-gray-50 py-12 md:py-24 lg:py-32 '
 						id='product'
 					>
-						<div className='container px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='grid gap-6 md:gap-8'>
-								<div className='flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8'>
-									<div className='grid gap-1'>
-										<h2 className='text-3xl font-bold tracking-tighter'>
+								<div className='flex flex-col md:flex-row text-center items-start md:items-center gap-4 md:gap-8'>
+									<div className='grid gap-1 text-center'>
+										<h2 className='text-3xl font-bold tracking-tighter py-4'>
 											Produk Kaca Film Kami
 										</h2>
 										<p className='text-gray-300'>
@@ -377,7 +380,7 @@ export function SectionKaca() {
 						className='bg-gray-950 text-gray-50 py-12 md:py-24 lg:py-32'
 						id='hubungi'
 					>
-						<div className='container px-4 md:px-6'>
+						<div className='container mx-auto px-4 md:px-6 text-center'>
 							<div className='grid gap-4 md:gap-8 lg:grid-cols-2 lg:gap-12'>
 								<div className='space-y-2'>
 									<h2 className='text-3xl font-bold tracking-tighter md:text-4xl/tight'>
